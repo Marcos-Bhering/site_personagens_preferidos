@@ -1,0 +1,200 @@
+* {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.front{ 
+    height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px; 
+    margin-top: 15px;
+    margin-right: 18px;
+    border-style: ridge;
+}
+
+header,
+h2 {
+    font-family: "Rubik Wet Paint", system-ui;
+}
+body{
+    font-family: "Titillium Web", serif;
+}
+
+/* estilizando o cabeçalho*/
+header {
+    padding: 16px 0;
+    background-color: #314531;
+    color: #fff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top .container{
+    align-items: flex-start;
+}
+.top{
+    padding: 16px 0;
+}
+.top h2{
+    margin-bottom: 16px;
+}
+.top p{
+    margin-bottom: 16px;
+}
+
+.frist img,
+.second img,
+.third img{
+    border-style: ridge;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.frist .neji_pequeno{
+    border-style: ridge;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    max-width: 300px; 
+    max-height: 300px;
+}
+.frist .neji_pequeno{
+    margin-top: none;
+    margin-right: 15%;
+}
+.frist .neji,
+.second .mereoleona{
+    margin-left: 280px;
+    margin-right: 1px;
+}
+.frist h2{
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+.second .mere_pequena,
+.third .yato_pequeno{
+    border-style: ridge;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    max-width: 400px; 
+    max-height: 400px;
+}
+.second .mereoleona{
+    margin-top: none;
+    margin-right: 7%;
+}
+.second h2{
+    margin-top: 18px;
+}
+
+.third .yato_pequeno{
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 500px; 
+    margin-right: 400px;
+    border-style: ridge;
+}
+.third .yato{
+    margin-top: none;
+    margin-right: 13%;
+
+}
+.third h2{
+    margin-bottom: 0;
+   
+}
+
+.top,
+.frist,
+.second,
+.third,
+#contact,
+.contact-methods{
+    padding: 16px;
+    margin-top: 0;
+    background-color: #216521;
+    color: #fff;
+}
+
+#contact .contact-methods{
+    display: block;
+}
+.contact-methods{
+    display: flex;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+textarea{
+    resize: none;
+}
+
+form button{
+    background-color: #314531;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #56bc16;
+}
+
+input:focus, textarea:focus{
+    outline-color:#314531 ;
+}
+
+.contact-methods{
+    border-style: ridge;
+    margin: 16px;
+    width: 360px;
+    background-color: #0a0a0a;
+}
+
+footer {
+    background-color: #314531;
+    color: #fff;
+    padding: 16px 0;
+    align-items: center;
+}
